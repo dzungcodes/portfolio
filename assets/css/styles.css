@@ -1043,22 +1043,6 @@ i .nav__close {
     .project__img {
         width: 200px;
     }
-
-    .testimonial__header,
-    .testimonial__data {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .testimonial__img {
-        margin-right: 0;
-        margin-bottom: var(--mb-0-25);
-    }
-
-    .testimonial__data,
-    .testimonial__description {
-        text-align: center;
-    }
 }
 
 /* For medium devices */
@@ -1181,7 +1165,7 @@ i .nav__close {
         grid-template-columns: .5fr
     }
     .services__container {
-        grid-template-columns: repeat(3, 218px);
+        grid-template-columns: repeat(2, 218px);
         justify-content: center;
     }
     .services__icon {
